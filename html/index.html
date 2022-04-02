@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/functions.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="breadcrumb">
+      <h1 class="Title">Online Calculator</h1>
+    </div>
+    <div class="main-container">
+        <div class="calculator-container">
+            <div class="screen">
+                <p class="screen" id="myScreen"></p>
+                <table>
+                    <tr>
+                        <td onclick="clearMyScreen()">
+                            C
+                        </td>
+                        <td onclick="setOperator('*')">
+                            *
+                        </td>
+                        <td onclick="setOperator('/')">
+                            /
+                        </td>
+                        <td onclick="calculateResult()">
+                            =
+                        </td>
+                    </tr>
+                    <tr>
+                        <td onclick="setNumber(7)">
+                            7
+                        </td>
+                        <td onclick="setNumber(8)">
+                            8
+                        </td>
+                        <td onclick="setNumber(9)">
+                            9
+                        </td>
+                        <td onclick="setOperator('-')">
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td onclick="setNumber(4)">
+                            4
+                        </td>
+                        <td onclick="setNumber(5)">
+                            5
+                        </td>
+                        <td onclick="setNumber(6)">
+                            6
+                        </td>
+                        <td onclick="setOperator('+')">
+                            +
+                        </td>
+                    </tr>
+                    <tr>
+                        <td onclick="setNumber(1)">
+                            1
+                        </td>
+                        <td onclick="setNumber(2)">
+                            2
+                        </td>
+                        <td onclick="setNumber(3)">
+                            3
+                        </td>
+                        <td onclick="setNumber('.')">
+                            .
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td onclick="setNumber(0)">
+                            0
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
